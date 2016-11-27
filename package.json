@@ -1,0 +1,31 @@
+{
+  "name": "aban",
+  "version": "0.0.3",
+  "description": "code statistics",
+  "main": "index.js",
+  "bin": {
+    "aban": "bin/aban.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xunull/aban-node.git"
+  },
+  "keywords": [
+    "statistics"
+  ],
+  "author": "xunull",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xunull/aban-node/issues"
+  },
+  "homepage": "https://github.com/xunull/aban-node#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "inquirer": "^1.2.3",
+    "js-yaml": "^3.7.0",
+    "lodash": "^4.17.2"
+  }
+}
