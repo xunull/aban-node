@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 var file_analysis = require('../lib/file_analysis');
 var util = require('../lib/util');
+var resultTable=require('../lib/result-table')
 var program = require('commander');
 
 
@@ -20,10 +21,12 @@ if(0=== program.args.length) {
 }
 
 console.log(util.readBanner());
-
+console.log('\n')
 let result = file_analysis(targetPath);
 
-console.dir(result,{
-	colors:true,
-	depth:8
-})
+// console.dir(result,{
+// 	colors:true,
+// 	depth:8
+// })
+
+console.log(resultTable.getTable(result.extnameFileCountMap,result.extnameLineCountMap))
