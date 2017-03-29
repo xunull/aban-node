@@ -2,7 +2,7 @@
 代码统计工具
 
 ## install
-`npm i -g aban**`
+`npm i -g aban`
 
 ## usage
 
@@ -26,6 +26,13 @@
 - .pl
 - .php
 - .vue
+
+因为主要是为了统计自己编写的代码，因此排除了一些常见的文件夹，如
+
+- node_modules
+- bower_components
+- dist 
+- public
 
 使用 **-e** 选项可以指定统计的类型
 如 `aban somepath -e .js,.css`
