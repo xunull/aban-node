@@ -1,4 +1,4 @@
-# 精确匹配
+# 精确匹配文件扩展名
 extnames:
   - .java
   - .js
@@ -23,10 +23,15 @@ excludeExtnames:
 # 以点开头的都不包含(.开头的要么是其他程序生成的,要么是其他类库的配置文件)
 excludeDirs:
   - .git
+  # nodejs 类库的目录
   - node_modules
   - logs
+  # bower 类库的目录
   - bower_components
+  # dist 目录一般是文件编译生成后的目录
   - dist 
+  # public 目录一般都是网站的静态资源文件夹，或者是存放第三方的静态资源（如jquery）
+  - public
 
 excludeFiles:
   - .DS_Store

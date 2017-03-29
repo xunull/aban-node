@@ -1,25 +1,13 @@
 {
-    "env": {
-        "es6": true,
-        "node": true
-    },
-    "extends": "eslint:recommended",
+    "extends": "airbnb-base",
+    "plugins": [
+        "import"
+    ],
     "rules": {
         "indent": [
             "error",
             4
         ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
-        "quotes": [
-            "error",
-            "single"
-        ],
-        "semi": [
-            "error",
-            "never"
-        ]
+        "no-restricted-syntax": [1]
     }
 }
