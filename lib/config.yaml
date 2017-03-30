@@ -32,6 +32,7 @@ excludeDirs:
   - dist 
   # public 目录一般都是网站的静态资源文件夹，或者是存放第三方的静态资源（如jquery）
   - public
+  - assets
 
 excludeFiles:
   - .DS_Store
