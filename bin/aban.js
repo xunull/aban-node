@@ -44,7 +44,7 @@ if (0 === program.args.length) {
 // 统计指定格式并且排序
 // 不过如果只统计一种语言的话,一般都是想看文件的分布
 if (program.extname) {
-    analysis.consoleTableResultSomeExt(targetPath, ...program.extname);
+    analysis.consoleTableResultSomeExt(targetPath, program.extname);
 } else {
     analysis.consoleDefault(targetPath);
 }
