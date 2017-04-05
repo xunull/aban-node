@@ -1,6 +1,6 @@
 {
   "name": "aban",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "code statistics",
   "main": "index.js",
   "bin": {
@@ -23,10 +23,11 @@
   },
   "homepage": "https://github.com/xunull/aban-node#readme",
   "dependencies": {
-    "cli-table": "^0.3.1",
+    "colors": "^1.1.2",
     "commander": "^2.9.0",
     "inquirer": "3.0.6",
     "js-yaml": "^3.8.2",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "wcwidth": "^1.0.1"
   }
 }
