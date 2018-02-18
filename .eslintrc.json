@@ -8,6 +8,8 @@
             "error",
             4
         ],
-        "no-restricted-syntax": [1]
+        "no-restricted-syntax": [
+            1
+        ]
     }
 }

@@ -33,10 +33,11 @@
 - bower_components
 - dist 
 - public
+- assets
 
 使用 **-e** 选项可以指定统计的类型
-如 `aban somepath -e .js,.css`
-多种类型的文件扩展名间用逗号分隔
+
+如 `aban somepath -e .js,.css` 多种类型的文件扩展名间用逗号分隔
 
 当要统计的目标类型只有一个时，会显示出该目录下级目录的排序
 
