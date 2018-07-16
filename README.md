@@ -34,6 +34,7 @@
 - dist 
 - public
 - assets
+- vendor
 
 使用 **-e** 选项可以指定统计的类型
 
