@@ -40,6 +40,8 @@ excludeDirs:
   - venv
   # env python 虚拟环境
   - env
+  # python django model
+  - migrations
 
 excludeFiles:
   - .DS_Store
