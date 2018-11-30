@@ -14,6 +14,7 @@ extnames:
   - .pl
   - .php
   - .vue
+  - .md
 
 # 不包含的扩展名
 excludeExtnames:
@@ -40,7 +41,7 @@ excludeDirs:
   - venv
   # env python 虚拟环境
   - env
-  # python django model
+  # python django auto create
   - migrations
 
 excludeFiles:
