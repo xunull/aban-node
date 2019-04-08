@@ -48,3 +48,4 @@ excludeDirs:
 
 excludeFiles:
   - .DS_Store
+  - package-lock.json
