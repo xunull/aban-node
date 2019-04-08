@@ -35,14 +35,14 @@ excludeDirs:
   - public
   # 一般是网站的前端文件目录
   - assets
-  # go 语言的第三方类库目录   
-  - vendor
   # venv python 虚拟环境
   - venv
   # env python 虚拟环境
   - env
   # python django auto create
   - migrations
+  # golang source code 
+  - vendor
 
 excludeFiles:
   - .DS_Store
