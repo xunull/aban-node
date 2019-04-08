@@ -43,6 +43,8 @@ excludeDirs:
   - migrations
   # golang source code 
   - vendor
+  # golang source code 
+  - pkg
 
 excludeFiles:
   - .DS_Store
