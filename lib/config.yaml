@@ -45,6 +45,8 @@ excludeDirs:
   - vendor
   # golang source code 
   - pkg
+  # django migrations code
+  - migrations    
 
 excludeFiles:
   - .DS_Store
